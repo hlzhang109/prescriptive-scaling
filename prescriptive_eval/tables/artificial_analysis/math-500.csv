@@ -1,0 +1,201 @@
+rank,model_id,model_name,creator,math_500,math_500_pct,price_1m_blended_3_to_1,median_output_tokens_per_second,median_time_to_first_token_seconds
+1,48e50f00-1fd1-4acc-b337-61078aa341e6,GPT-5 (high),OpenAI,0.994,99.4,3.438,124.972,81.898
+2,16c5b637-8bce-4252-81f2-1b87a36a4e4c,o3,OpenAI,0.992,99.2,3.5,310.989,8.961
+3,ff9bc5e5-a02f-4270-983e-4b3f834f3363,Grok 3 mini Reasoning (high),xAI,0.992,99.2,0.35,193.427,0.696
+4,5e965af0-ca5c-4f47-9ba9-06000508b84a,GPT-5 (medium),OpenAI,0.991,99.1,3.438,125.192,42.036
+5,a7564055-f8ba-4c4b-9e2d-060f61263645,Claude 4 Sonnet (Reasoning),Anthropic,0.991,99.1,6,56.696,0.832
+6,5ea94a4a-55ac-4ea1-8898-2b3971e94af6,Grok 4,xAI,0.99,99.0,6,49.294,8.26
+7,84b49308-6b93-47aa-a4f6-776ee1a1e8cd,o4-mini (high),OpenAI,0.989,98.9,1.925,155.398,43.917
+8,7f3c9423-3ee3-4369-a6d9-3f2a40aff00e,GPT-5 (low),OpenAI,0.987,98.7,3.438,121.627,25.584
+9,073b5329-c4b3-4f1f-8f97-4753aadf4398,Gemini 2.5 Pro Preview (May' 25),Google,0.986,98.6,3.438,0,0
+10,076f2674-bc4b-4925-be59-50832eb8c090,o3-mini (high),OpenAI,0.985,98.5,1.925,165.133,49.484
+11,f6ccbe1d-bd7e-484b-9795-18cc9f91552d,Qwen3 235B A22B 2507 (Reasoning),Alibaba,0.984,98.4,2.625,66.709,1.135
+12,a83f84b3-473a-4276-9ae1-8909da723159,DeepSeek R1 0528 (May '25),DeepSeek,0.983,98.3,2.362,0,0
+13,e1cfa926-9e2b-4a0d-8c31-48366a5041c5,Llama Nemotron Super 49B v1.5 (Reasoning),NVIDIA,0.983,98.3,0.175,75.479,0.225
+14,8a4a5ead-7789-4389-8400-30e9d20370b7,Claude 4 Opus (Reasoning),Anthropic,0.982,98.2,30,45.594,1.258
+15,219ed587-60c5-4a48-9517-8480e08d0ca1,Gemini 2.5 Flash (Reasoning),Google,0.981,98.1,0.85,276.55,15.879
+16,68c89ebf-779c-4445-9241-de964cd17355,Gemini 2.5 Flash Preview (Reasoning),Google,0.981,98.1,0,0,0
+17,3373245b-e6dc-4b66-a7b0-3f06f9b7bd46,Qwen3 235B A22B 2507 Instruct,Alibaba,0.98,98.0,1.225,42.419,1.097
+18,62de31e8-a1a3-429c-b634-a2afccfd9363,Gemini 2.5 Pro Preview (Mar' 25),Google,0.98,98.0,3.438,0,0
+19,9ca246a7-cf13-42c9-9182-5b5ad6b79026,MiniMax M1 80k,MiniMax,0.98,98.0,0.825,0,0
+20,1cf439b8-0cfd-47b2-9de2-9a2157e6762b,GLM-4.5 (Reasoning),Z AI,0.979,97.9,1,49.039,0.699
+21,44b19b51-5367-4ef9-a2ff-2f90b89a0867,EXAONE 4.0 32B (Reasoning),LG AI Research,0.977,97.7,0.7,93.748,0.317
+22,5e0164b3-d902-4bcb-a1b2-83b4f4cd6143,Qwen3 30B A3B 2507 (Reasoning),Alibaba,0.976,97.6,0.75,177.432,0.941
+23,7ec1065a-c90e-41e4-bd17-abb7042eed76,Qwen3 30B A3B 2507 Instruct,Alibaba,0.975,97.5,0.35,58.965,0.939
+24,2dad8957-4c16-4e74-bf2d-8b21514e0ae9,o3-mini,OpenAI,0.973,97.3,1.925,161.711,14.274
+25,385376b1-9815-47dd-83cc-85aac34f247d,MiniMax M1 40k,MiniMax,0.972,97.2,0.825,0,0
+26,441734a9-8901-4850-9bae-b474c370291f,Kimi K2,Kimi,0.971,97.1,1.075,61.324,0.702
+27,5ad2f60f-ee05-49fd-85a0-cef69aa7cb7b,o1,OpenAI,0.97,97.0,26.25,200.019,16.475
+28,f4e8194a-d0e6-48eb-92be-4307de5aeeec,Gemini 2.5 Flash-Lite (Reasoning),Google,0.969,96.9,0.175,304.615,18.901
+29,27202e5f-c82d-4710-92e9-4317877d4883,Gemini 2.5 Pro,Google,0.967,96.7,3.438,161.926,32.233
+30,eb689f7a-f210-4a87-b407-f249897f2764,Solar Pro 2 (Reasoning),Upstage,0.967,96.7,0.5,112.914,0.973
+31,0e34f05c-387e-4968-be15-ccec4a55d8c1,DeepSeek R1 (Jan '25),DeepSeek,0.966,96.6,2.362,0,0
+32,5d303dc9-c027-401f-9803-4e9aa3331007,GLM-4.5-Air,Z AI,0.965,96.5,0.425,105.265,0.631
+33,0fec07d5-a9b2-407a-b5f8-5bf10bd86b59,Magistral Small 1,Mistral,0.963,96.3,0.75,214.069,0.327
+34,b00ecd62-a53f-4aed-b833-3e9d6b0170ba,Qwen3 32B (Reasoning),Alibaba,0.961,96.1,2.625,89.465,0.888
+35,4559e9f0-8aad-4681-89fb-68cb915e0f16,Qwen3 14B (Reasoning),Alibaba,0.961,96.1,1.313,58.837,1.102
+36,1a8ba535-df18-459b-ad40-3199191296d7,Llama 3.3 Nemotron Super 49B v1 (Reasoning),NVIDIA,0.959,95.9,0,0,0
+37,3e6cf518-a1f4-42d3-8fcf-827c9bd8e6d5,Qwen3 30B A3B (Reasoning),Alibaba,0.959,95.9,0.75,95.869,1.006
+38,1edc272c-d799-44d6-909a-bf3c1909a3a0,Sonar Reasoning Pro,Perplexity,0.957,95.7,0,0,0
+39,ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca,QwQ 32B,Alibaba,0.957,95.7,0.473,32.303,1.37
+40,98e3230e-cee1-4c19-b9f8-b6b6a826ca93,R1 1776,Perplexity,0.954,95.4,0,0,0
+41,cf095603-72b6-47f8-8ee1-09a42890f92a,Llama 3.1 Nemotron Ultra 253B v1 (Reasoning),NVIDIA,0.952,95.2,0.9,36.598,0.75
+42,b26ff709-1773-4595-ae44-78e0a5bac29c,DeepSeek R1 Distill Qwen 14B,DeepSeek,0.949,94.9,0.15,63.649,0.955
+43,b1fa84f8-1ed3-4124-b403-4655dafa4267,Llama 3.1 Nemotron Nano 4B v1.1 (Reasoning),NVIDIA,0.947,94.7,0,0,0
+44,13358187-4584-479c-ab43-5bcdf8f297a4,Claude 3.7 Sonnet (Reasoning),Anthropic,0.947,94.7,6,0,0
+45,b515503d-4d65-4a3f-8a4a-6c731e2b079f,o1-mini,OpenAI,0.944,94.4,0,0,0
+46,0399e614-5d46-484f-9183-e4f32d74e1c6,Gemini 2.0 Flash Thinking Experimental (Jan '25),Google,0.944,94.4,0,0,0
+47,093883ed-f5fc-443b-8e18-afbfb166699e,Qwen3 Coder 480B A35B Instruct,Alibaba,0.942,94.2,3,51.841,1.507
+48,75e1c197-f239-4361-a9d6-66dccfead236,DeepSeek V3 0324,DeepSeek,0.942,94.2,1.25,0,0
+49,504412c2-2ada-499b-aebf-7e0a35c9d286,Claude 4 Opus (Non-reasoning),Anthropic,0.941,94.1,30,39.421,1.367
+50,df95f83f-5ebb-466a-9d2d-b95efc8c012c,DeepSeek R1 Distill Qwen 32B,DeepSeek,0.941,94.1,0.285,79.066,0.3
+51,2f60d80d-c3d3-4a43-bded-0557898c4618,EXAONE 4.0 32B (Non-reasoning),LG AI Research,0.939,93.9,0.7,87.159,0.305
+52,4a845d7b-a52d-43bb-80b7-b58c7a0c155e,DeepSeek R1 Distill Llama 70B,DeepSeek,0.935,93.5,0.875,86.521,0.859
+53,d034dafe-463d-4c50-956f-84fca657b26f,Claude 4 Sonnet (Non-reasoning),Anthropic,0.934,93.4,6,58.358,1.072
+54,191a2097-cce3-49cf-881e-0c790892059f,Qwen3 4B (Reasoning),Alibaba,0.933,93.3,0.398,92.063,0.854
+55,6000145b-0e3d-4fef-a55f-bcaac84803b2,DeepSeek R1 0528 Qwen3 8B,DeepSeek,0.932,93.2,0.068,39.928,1.198
+56,6afbfb62-27e4-435e-9c85-d9fe1b92519e,Gemini 2.5 Flash (Non-reasoning),Google,0.932,93.2,0.85,236.304,0.384
+57,ae4fe623-80ab-4ea3-8921-70a18ea0fc7e,ERNIE 4.5 300B A47B,Baidu,0.931,93.1,0.485,28.68,2.016
+58,bcca0e70-7e80-4c07-b1fa-b33bcfb19e51,Gemini 2.0 Flash (Feb '25),Google,0.93,93.0,0.175,0,0
+59,bbe6d782-e630-48d5-b11c-3ce37f373f1e,Qwen3 235B A22B (Reasoning),Alibaba,0.93,93.0,2.625,61.902,1.043
+60,1d81aa1c-64c8-442a-9c41-81b37e407b91,Gemini 2.5 Flash-Lite (Non-reasoning),Google,0.926,92.6,0.175,286.3,0.428
+61,55a3ebf6-6117-4cc1-8596-c6de6e552fd4,Gemini 2.5 Flash Preview (Non-reasoning),Google,0.926,92.6,0,0,0
+62,9f7c7566-a704-49a2-a383-cb3181da33a4,GPT-4.1 mini,OpenAI,0.925,92.5,0.7,77.723,0.484
+63,078f4dc8-5350-40a2-a5ea-e8359f795b70,o1-preview,OpenAI,0.924,92.4,28.875,0,0
+64,c6a47d8a-7517-46e2-8383-329fe7241725,Gemini 2.0 Pro Experimental (Feb '25),Google,0.923,92.3,0,0,0
+65,04751bd4-0c5d-416b-a5f2-83727c5bfcda,Sonar Reasoning,Perplexity,0.921,92.1,2,0,0
+66,660965b2-66d2-49ee-a6b9-79a6ac47d3c0,Magistral Medium 1,Mistral,0.917,91.7,2.75,38.978,0.496
+67,3b608b70-6434-4baa-99ad-45d499703c67,GPT-4.1,OpenAI,0.913,91.3,3.5,116.474,0.502
+68,fddb72bd-60d3-41af-acc5-3df9a290eb8e,Gemini 2.0 Flash (experimental),Google,0.911,91.1,0,156.672,0.319
+69,8823351e-8232-4c9c-8a1d-cd2c1d2c1196,QwQ 32B-Preview,Alibaba,0.91,91.0,0.135,87.207,0.206
+70,59e22326-1bca-4432-a5fa-147fbe8854e7,Mistral Medium 3,Mistral,0.907,90.7,0.8,95.433,0.353
+71,9dba61f5-78ee-4190-8d1d-8e7063ffd386,Qwen3 8B (Reasoning),Alibaba,0.904,90.4,0.66,86.131,0.874
+72,43573c57-2403-46fb-af4b-a93de9a0c3f5,Qwen3 235B A22B (Non-reasoning),Alibaba,0.902,90.2,1.225,46.603,1.08
+73,8e78cf7a-5b76-4beb-beba-b99c6233b208,Solar Pro 2 (Preview) (Reasoning),Upstage,0.9,90.0,0,0,0
+74,5962d643-0a6f-4630-bb08-ab5720d80056,Qwen3 1.7B (Reasoning),Alibaba,0.894,89.4,0.398,125.729,0.898
+75,dbbcf240-a69e-4078-8f16-7c94c7a8c514,Reka Flash 3,Reka AI,0.893,89.3,0.35,48.993,1.322
+76,da9fe224-8af3-46d7-a8c4-6220779c3f35,Qwen3 Coder 30B A3B Instruct,Alibaba,0.893,89.3,0.9,102.929,1.447
+77,575498d6-60ec-466b-9372-fea19911fd07,"GPT-4o (March 2025, chatgpt-4o-latest)",OpenAI,0.893,89.3,7.5,224.977,0.653
+78,922c69c7-9037-43c6-8bcf-a1c555e7f3eb,Llama 4 Maverick,Meta,0.889,88.9,0.422,131.574,0.411
+79,44db6283-aa82-4799-af4a-679fe0530845,Solar Pro 2 (Non-reasoning),Upstage,0.889,88.9,0.5,116.381,1.003
+80,43fc5506-c5ed-4dee-9b85-962bf7ae3986,DeepSeek V3 (Dec '24),DeepSeek,0.887,88.7,0.625,0,0
+81,2bfdd17a-e027-4068-a54e-b0e90a6df118,Gemma 3 27B Instruct,Google,0.883,88.3,0,46.857,0.962
+82,43da3718-3d6e-40dd-901a-05664179ff7f,Mistral Small 3.2,Mistral,0.883,88.3,0.15,120.616,0.294
+83,2ac96b67-f4f8-4c8c-ac08-c7510faa7bb9,Gemini 1.5 Pro (Sep '24),Google,0.876,87.6,0,0,0
+84,3de55b83-e02b-412e-8211-315bbebe3e94,Gemini 2.0 Flash-Lite (Preview),Google,0.873,87.3,0.131,0,0
+85,7b269763-ecc0-41ef-aa29-47ef632ac065,Gemini 2.0 Flash-Lite (Feb '25),Google,0.873,87.3,0.131,0,0
+86,432d6c36-8825-47f3-b4eb-58529cea346b,Solar Pro 2 (Preview) (Non-reasoning),Upstage,0.871,87.1,0,0,0
+87,ecc6524a-d521-458a-8327-5009e8ce6549,Qwen3 14B (Non-reasoning),Alibaba,0.871,87.1,0.613,54.653,0.996
+88,2443ac9e-a3db-423d-accb-8963f6fb0a53,Grok 3,xAI,0.87,87.0,6,40.988,0.839
+89,bf60740e-6aa5-422f-ba49-ef6e9d171205,Qwen3 32B (Non-reasoning),Alibaba,0.869,86.9,1.225,84.589,0.886
+90,f3169f25-8c6f-48e4-ae87-0cf872dc0ec1,Qwen3 30B A3B (Non-reasoning),Alibaba,0.863,86.3,0.35,87.452,1.01
+91,c3738fb0-3408-4430-a699-760ae4b70c93,GPT-5 (minimal),OpenAI,0.861,86.1,3.438,93.4,0.944
+92,b4f7d7a4-869a-4ee7-b17a-4046cd1e79fd,Qwen2.5 Instruct 72B,Alibaba,0.858,85.8,0,45.308,1.049
+93,2e6400f5-85ca-4ebc-ba8f-c2811a631138,Gemma 3 12B Instruct,Google,0.853,85.3,0,46.277,4.439
+94,0e49fe2d-dd3c-4ae5-b56f-a1c89e14b89e,DeepSeek R1 Distill Llama 8B,DeepSeek,0.853,85.3,0,0,0
+95,d925845d-39ad-4de3-8495-f176b79828c0,Claude 3.7 Sonnet (Non-reasoning),Anthropic,0.85,85.0,6,0,0
+96,72c358fd-7d45-4d68-89aa-699743710924,GPT-4.1 nano,OpenAI,0.848,84.8,0.175,185.937,0.374
+97,adf9a85e-abc3-4f28-937b-db6655cc5238,Llama 4 Scout,Meta,0.844,84.4,0.241,116.259,0.456
+98,e46198a7-cd29-4afd-933d-cdf180f0f305,Qwen3 4B (Non-reasoning),Alibaba,0.843,84.3,0.188,84.034,0.936
+99,e58bbffd-fdc2-412a-b6d7-ca0e3f5d611a,Nova Premier,Amazon,0.839,83.9,5,79.776,0.802
+100,b9dc72c6-7bea-4936-a55a-4b0c835fc755,Qwen2.5 Max,Alibaba,0.835,83.5,2.8,31.792,1.108
+101,b2dd592a-fbc5-458a-b26d-f3964cbab82f,Qwen3 8B (Non-reasoning),Alibaba,0.828,82.8,0.31,82.731,0.924
+102,41faf421-118b-465b-b170-d200776580d1,Gemini 1.5 Flash (Sep '24),Google,0.827,82.7,0,0,0
+103,3bc32f13-5afa-4e28-bce1-10e57376686b,Command A,Cohere,0.819,81.9,4.375,101.937,0.21
+104,5ec4a0db-da66-4e46-9682-fceeed755ef8,Sonar,Perplexity,0.817,81.7,1,122.093,1.494
+105,ee708f92-374e-4123-b900-e22d7b2afc19,Phi-4,Microsoft Azure,0.81,81.0,0.219,13.174,0.484
+106,352f834f-a03c-4117-8a29-c3ccd8a568ce,Qwen2.5 Turbo,Alibaba,0.805,80.5,0.087,88.328,0.934
+107,1d0db5a3-3132-4213-a94b-c2e395d08283,Qwen2.5 Instruct 32B,Alibaba,0.805,80.5,0,0,0
+108,b4784397-aa28-411b-b011-9c4331bfa9c8,GPT-4o (ChatGPT),OpenAI,0.797,79.7,7.5,226.29,0.507
+109,8c1be908-67b6-4cf4-ba08-83ddbe44fde3,GPT-4o (Aug '24),OpenAI,0.795,79.5,4.375,125.631,0.486
+110,e98e911e-9fb2-4a9a-826e-3d681d0cdca8,GPT-4o (May '24),OpenAI,0.791,79.1,7.5,139.78,0.573
+111,b5c1c91a-7474-4409-9a9c-9c2ac45d9eb6,GPT-4o mini,OpenAI,0.789,78.9,0.263,54.017,0.574
+112,546ec53f-273c-4af7-b13f-b88c41f45905,Nova Pro,Amazon,0.786,78.6,1.4,0,0
+113,291a510a-dcc0-40df-8a80-b3aa31900a6c,Grok 2 (Dec '24),xAI,0.778,77.8,4,0,0
+114,f73f4711-9c61-40a7-a258-b71c14727f53,Llama 3.1 Tulu3 405B,Allen Institute for AI,0.778,77.8,0,0,0
+115,c4c3b42f-e0f0-48ca-b6f9-b296e7697806,Llama 3.3 Nemotron Super 49B v1 (Non-reasoning),NVIDIA,0.775,77.5,0,0,0
+116,976cc8ad-7904-4056-83c5-960181f47d5f,Llama 3.3 Instruct 70B,Meta,0.773,77.3,0.64,115.033,0.46
+117,a797eaf3-6d75-4f29-86a8-e1243ce52d43,Gemma 3n E4B Instruct,Google,0.771,77.1,0.025,57.746,0.415
+118,0a603978-03b9-4f47-a273-2f7fd969be85,Claude 3.5 Sonnet (Oct '24),Anthropic,0.771,77.1,6,0,0
+119,26c0b5df-efa7-470f-a65e-2d883329e493,Llama Nemotron Super 49B v1.5 (Non-reasoning),NVIDIA,0.77,77.0,0.175,70.965,0.225
+120,04586102-6a28-48f8-a82e-85775d7ed779,Qwen2.5 Coder Instruct 32B,Alibaba,0.767,76.7,0.141,55.204,0.46
+121,222fb320-6e55-4672-846a-b6d5a24a45f4,Gemma 3 4B Instruct,Google,0.766,76.6,0,44.465,1.037
+122,5c3dd927-48a3-4f3c-8045-9b135f62dfbb,Nova Lite,Amazon,0.765,76.5,0.105,225.459,0.404
+123,bc4579d2-9c46-46c3-ace0-454039bf21bb,DeepSeek-V2.5 (Dec '24),DeepSeek,0.763,76.3,0,0,0
+124,c1045dc0-4fd3-4adb-9548-18763e0d051f,GPT-4o (Nov '24),OpenAI,0.759,75.9,4.375,197.272,0.365
+125,4ae6c88d-9e4a-4850-89fe-18a1c04a66cc,Qwen3 0.6B (Reasoning),Alibaba,0.75,75.0,0.398,201.31,0.835
+126,bd2c3517-00d8-4ba5-a989-1f1e52f3ffab,Gemma 3n E4B Instruct Preview (May '25),Google,0.749,74.9,0,0,0
+127,3435db18-9227-45a5-8e79-9546b14b5aaa,Sonar Pro,Perplexity,0.745,74.5,6,136.543,1.395
+128,8f0a75d6-8d00-4c2e-bcd4-8e88a570a93c,DeepSeek-Coder-V2,DeepSeek,0.743,74.3,0,0,0
+129,76aa6af5-fdc6-4739-a300-983f14e74a67,GPT-4 Turbo,OpenAI,0.737,73.7,15,37.38,0.79
+130,a04f5b78-f397-4fd8-a2b1-00dcab50324c,Grok Beta,xAI,0.737,73.7,0,0,0
+131,50f92d5f-f413-4c97-8dab-331101622a28,Mistral Large 2 (Nov '24),Mistral,0.736,73.6,3,45.455,0.475
+132,7393c56a-ec31-48e9-b804-c04f2d2cb641,Llama 3.1 Nemotron Instruct 70B,NVIDIA,0.733,73.3,1.2,40.114,0.387
+133,033e4aa9-a556-4224-87b0-341ed1070257,Claude 3.5 Haiku,Anthropic,0.721,72.1,1.6,48.896,0.697
+134,2bb84433-f38e-4edc-9b65-4d7b1f473db9,Qwen3 1.7B (Non-reasoning),Alibaba,0.717,71.7,0.188,114.073,0.866
+135,e5dd499f-c330-45ec-9ff0-a99209c82af7,Mistral Small 3,Mistral,0.715,71.5,0.15,232.653,0.358
+136,1b05e346-e86a-4a20-8feb-7da8c65a99aa,Mistral Large 2 (Jul '24),Mistral,0.714,71.4,3,0,0
+137,de0beaf0-c951-487a-8eb4-3dd12e74122c,Pixtral Large,Mistral,0.714,71.4,3,27.933,0.603
+138,aba82268-2bb7-4a0f-80be-9b7722e2145b,Devstral Medium,Mistral,0.707,70.7,0.8,111.611,0.439
+139,24ac5b00-5f03-4c47-8e37-522d1195383e,Mistral Small 3.1,Mistral,0.707,70.7,0.15,110.385,0.305
+140,45c87531-2d57-48e0-8012-202cd636189e,Llama 3.1 Instruct 405B,Meta,0.703,70.3,4.188,25.083,0.812
+141,344c6718-c573-41d4-9556-10287a3fa1fc,Nova Micro,Amazon,0.703,70.3,0.061,453.32,0.344
+142,7656c62b-5345-435b-bf12-b6ce2ca0d58d,Qwen2 Instruct 72B,Alibaba,0.701,70.1,0,0,0
+143,9f873c2f-2c2d-4ccb-9e1b-71bf61b052be,Phi-4 Mini Instruct,Microsoft Azure,0.696,69.6,0,45.165,0.304
+144,aca9c1ad-fc86-49f3-a312-b1e517ea100c,Claude 3.5 Sonnet (June '24),Anthropic,0.695,69.5,6,0,0
+145,2cd04201-2b6e-47ef-853e-7601f705f2a8,Phi-4 Multimodal Instruct,Microsoft Azure,0.693,69.3,0,17.128,0.324
+146,a8c67863-9d66-44dd-8d27-f58654ecde03,Gemma 3n E2B Instruct,Google,0.691,69.1,0,46.259,0.276
+147,94229066-9381-4ee1-bf70-a16d63756a6e,Gemini 1.5 Flash-8B,Google,0.689,68.9,0,0,0
+148,444cdb1e-bab8-42cd-938c-b2d7a93e2da1,DeepSeek R1 Distill Qwen 1.5B,DeepSeek,0.687,68.7,0,0,0
+149,cc1fa238-1a76-486d-a997-22309275eadd,Devstral Small (May '25),Mistral,0.684,68.4,0.15,196.816,0.364
+150,7a7b52f6-fdef-4dae-9203-58c710ccc81d,Mistral Saba,Mistral,0.677,67.7,0,0,0
+151,16f2578b-1b28-4be3-b371-700c2677bcd6,Gemini 1.5 Pro (May '24),Google,0.673,67.3,0,0,0
+152,2cff73da-4855-403c-afc9-5540feadcc15,Granite 3.3 8B (Non-reasoning),IBM,0.665,66.5,0.085,0,0
+153,e410e854-104d-4b35-a171-899ff9d974bb,Qwen2.5 Coder Instruct 7B ,Alibaba,0.66,66.0,0,0,0
+154,466aecdb-3d96-4191-bc52-b3366db38851,Llama 3.1 Instruct 70B,Meta,0.649,64.9,0.56,60.401,0.387
+155,7829427f-f0e3-4f6d-a228-5fbf70dacc02,Claude 3 Opus,Anthropic,0.641,64.1,30,0,0
+156,9eae4ec4-61b8-48bc-9843-3edd506ae933,Devstral Small (Jul '25),Mistral,0.635,63.5,0.15,240.005,0.363
+157,9ca71ac4-41c8-42c0-87dd-5704a9e5b94d,Llama 3.2 Instruct 90B (Vision),Meta,0.629,62.9,0.72,41.217,0.335
+158,b4ddb4c8-1400-44ab-8c2b-e2472088e7ff,Jamba 1.5 Large,AI21 Labs,0.606,60.6,3.5,0,0
+159,78452c64-7303-4192-bca5-2d9ec5c623d4,Jamba 1.7 Large,AI21 Labs,0.6,60.0,3.5,44.48,0.883
+160,a8efb564-9d17-4d7f-8f43-e9110657ce21,DeepHermes 3 - Mistral 24B Preview (Non-reasoning),Nous Research,0.595,59.5,0,0,0
+161,92b19c88-fa87-4595-957e-fe9aa5fa5ad4,Jamba 1.6 Large,AI21 Labs,0.58,58.0,3.5,46.263,0.825
+162,7c045ca0-b331-488d-af31-df0fd331dfd1,Mistral Small (Sep '24),Mistral,0.563,56.3,0.3,117.799,0.314
+163,35d602fc-b8b8-4698-9f4d-f2ce11ca50e4,Mistral Small (Feb '24),Mistral,0.562,56.2,1.5,112.687,0.284
+164,ac48c49d-9e77-4394-ac4e-d1ee51fd5fee,Gemini 1.5 Flash (May '24),Google,0.554,55.4,0,0,0
+165,ca6c1412-f3c1-4391-9231-f83a702aa7af,Mixtral 8x22B Instruct,Mistral,0.545,54.5,0,0,0
+166,1dcea4f7-7e8b-49f8-abe2-5860ff9f349e,Hermes 3 - Llama-3.1 70B,Nous Research,0.538,53.8,0.3,42.56,0.332
+167,a971b0c0-4c0f-484a-b018-e36b5be3409e,Reka Flash (Sep '24),Reka AI,0.529,52.9,0.35,69.655,1.296
+168,5e4e4590-a77e-4b66-95f8-f3960a1a7c68,Mistral Large (Feb '24),Mistral,0.527,52.7,6,0,0
+169,0e5f6140-1154-4583-a3e0-8c032a338892,Qwen3 0.6B (Non-reasoning),Alibaba,0.521,52.1,0.188,186.01,0.939
+170,739684ba-0f63-4e2a-b4ee-30741c9e9320,Llama 3.1 Instruct 8B,Meta,0.519,51.9,0.1,153.502,0.373
+171,5fb47ff6-a30e-4c2c-96f2-55e95a13390f,Llama 3.2 Instruct 11B (Vision),Meta,0.516,51.6,0.16,70.176,0.404
+172,82879bb8-89fb-4adc-b519-315b8ef30b77,Llama 3 Instruct 8B,Meta,0.499,49.9,0.07,69.427,0.389
+173,71e8d48c-1920-4f27-8ea9-1f10becc615a,Llama 3.2 Instruct 3B,Meta,0.489,48.9,0.06,102.442,0.463
+174,d1720545-d0a8-4c15-a53e-ef5ca99ac7ea,Gemma 3 1B Instruct,Google,0.484,48.4,0,42.98,0.527
+175,aa83359a-d804-4f0b-b5bf-dc637711c26f,Llama 3 Instruct 70B,Meta,0.483,48.3,0.88,36.934,0.428
+176,dfeeb904-e784-4d5c-ad66-9400146b150b,Gemini 2.0 Flash Thinking Experimental (Dec '24),Google,0.48,48.0,0,0,0
+177,1299b9a8-af50-4742-a58b-24ff7eb48f9f,LFM 40B,Liquid AI,0.48,48.0,0,0,0
+178,ded8d96e-835f-4359-947a-a4c3bb78e983,Phi-3 Mini Instruct 3.8B,Microsoft Azure,0.457,45.7,0.228,68.823,0.353
+179,037dec2f-51e8-4127-a1f1-85155dae7a1d,GPT-3.5 Turbo,OpenAI,0.441,44.1,0.75,131.95,0.414
+180,b2e68f0a-8f66-4e4c-9821-2b786cea601b,Claude 3 Sonnet,Anthropic,0.414,41.4,6,0,0
+181,1f05af98-1ec6-4506-a0b8-57a8c9b63878,Mistral Medium,Mistral,0.405,40.5,4.088,77.234,0.39
+182,8ddacd41-bf43-411b-aa30-43ebf0567dd8,Gemini 1.0 Pro,Google,0.403,40.3,0,0,0
+183,1fc54cef-d179-48b1-a27d-046874e9b208,Claude 3 Haiku,Anthropic,0.394,39.4,0.5,112.778,0.417
+184,9e141c0d-fc82-4e07-bb2e-fe0003bc030b,Claude 2.1,Anthropic,0.374,37.4,0,0,0
+185,540ebc58-a2d8-4dc9-ba6b-973efa52fab1,Jamba 1.5 Mini,AI21 Labs,0.357,35.7,0.25,0,0
+186,d97713f2-afa6-4f8d-b2f3-ac89a24c4d6c,Solar Mini,Upstage,0.331,33.1,0.15,79.36,0.992
+187,6b08a75a-19ee-40b4-be33-133b8ef42f92,Llama 2 Chat 13B,Meta,0.329,32.9,0,0,0
+188,599da8e0-bd9c-4b38-a127-b50e371fbcf8,Llama 2 Chat 70B,Meta,0.323,32.3,0,0,0
+189,ec60e57e-76d3-42e3-a0e3-80662225a639,OpenChat 3.5 (1210),OpenChat,0.307,30.7,0,0,0
+190,3edcb2ed-6981-4f88-a556-563f7f8f00aa,Mixtral 8x7B Instruct,Mistral,0.299,29.9,0.54,0,0
+191,1cb96708-f6c1-4668-9804-5db6ecac01ed,DBRX Instruct,Databricks,0.279,27.9,0,0,0
+192,76361085-f5dc-49ec-b069-fe56ca885933,Command-R+ (Apr '24),Cohere,0.279,27.9,6,0,0
+193,83cb898e-05d9-4e4b-9de3-2d305014d923,Claude Instant,Anthropic,0.264,26.4,0,0,0
+194,b4f14013-37dd-4c75-bd8a-378365d9ed77,Jamba 1.7 Mini,AI21 Labs,0.258,25.8,0.25,127.022,0.753
+195,e8ffd75b-766f-4551-8c52-6e54706220eb,Jamba 1.6 Mini,AI21 Labs,0.257,25.7,0.25,126.938,0.689
+196,b7726745-9c77-40c3-8452-974cb53d6fbc,DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning),Nous Research,0.218,21.8,0,0,0
+197,abe9f0c7-f4f6-430d-ba42-f45afdd4841b,Command-R (Mar '24),Cohere,0.164,16.4,0.75,0,0
+198,80f7860a-7665-4658-9f05-15bccf5f832f,Llama 3.2 Instruct 1B,Meta,0.14,14.0,0.053,77.77,0.416
+199,217b34ec-5920-4fc1-8886-6a70a324837d,Mistral 7B Instruct,Mistral,0.121,12.1,0.25,130.191,0.344
+200,ffd65ef7-fbdb-4145-98ae-b5d01cda770b,Llama 2 Chat 7B,Meta,0.059,5.9,0.1,110.205,0.555

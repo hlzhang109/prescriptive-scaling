@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "LCB_generation": 79,
+    "coding_completion": 62,
+    "connections": 64,
+    "paraphrase": 29,
+    "plot_unscrambling": 66,
+    "story_generation": 40,
+    "typos": 66
+  },
+  "min_records": 30
+}

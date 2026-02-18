@@ -1,0 +1,9 @@
+numpy>=2.0
+scipy>=1.13
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+Pillow>=9.4
+requests>=2.31
+openpyxl>=3.0
+imageio>=2.34

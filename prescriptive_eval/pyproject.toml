@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-skill-frontiers"
+version = "0.1.0"
+description = "Compute-to-performance frontier estimation and evaluation for LLM benchmarks."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "LLM Skill Frontiers Contributors" }
+]
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "pandas>=2.0",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "Pillow>=9.4",
+  "requests>=2.31",
+  "openpyxl>=3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "ruff>=0.5",
+]
+
+[tool.pytest.ini_options]
+addopts = "--ignore=LiveBench-main"
+python_files = ["test_*.py", "*_test.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [
+  "LiveBench-main",
+]

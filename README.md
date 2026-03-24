@@ -72,6 +72,40 @@ All generated outputs are written under `outputs/` (safe to delete/regenerate) e
   - `scripts/plot/plot_budget_period4.py`: plots budget designs from existing manifests (period4/single_k)
   - `scripts/plot/plot_pinball_baselines.py`: pinball baseline plots
 
+### Sampling evaluation (`eval-sampling/`)
+- `eval.py`: runs **lm-eval** for a single model row from `data/top_models_by_base.csv` (Open LLM Leaderboard–style tasks by default).
+- `run.sh`: Slurm job wrapper around `eval.py` for cluster runs (see below).
+
+## `eval-sampling/run.sh`
+
+Batch script for **one model per job**: it activates a Python environment, runs the `leaderboard` task via `eval.py`, then deletes that model’s Hugging Face Hub cache under `$HF_HOME` to free space.
+
+**Arguments**
+
+- First positional argument `$1` is passed to `eval.py` as `--model_id`: the **row index** in `data/top_models_by_base.csv` (same integer as in `eval.py`).
+
+**What the job runs**
+
+From the `eval-sampling/` directory (so `eval.py` and `data/` paths resolve), the script effectively runs:
+
+```bash
+python eval.py --tasks leaderboard --model_id "$1" --batch_size 1 --output-dir "results/${SLURM_JOB_NAME}"
+```
+
+Results are written under `$SCRATCH/control-scale/...` as implemented in `eval.py` (see that file for the exact path layout and skip-if-results-exist behavior).
+
+**Cluster settings (edit before use)**
+
+The script is **site-specific**: it sets `#SBATCH` resources (e.g. 2 GPUs, 12 CPUs, 128 GB, 2-day limit), loads `cuda/12.4` and `gcc`, uses a fixed conda/venv path (`source $SCRATCH/envs/control/bin/activate`), and sets `--account`. Expects `SLURM_PARTITION` to be set in the environment when you submit. Set `HF_HOME` (and typically `HF_TOKEN` if your eval needs it) before `sbatch`.
+
+**Submit**
+
+```bash
+cd eval-sampling
+export SLURM_PARTITION=your_partition
+sbatch run.sh <model_id>
+```
+
 ## Methods implemented (what we compute)
 
 ### 1) Single-skill sigmoid frontier fitting
@@ -489,3 +523,15 @@ python scripts/evaluate/sweep_alpha.py \
 - Contribution guide: `CONTRIBUTING.md`
 - Citation metadata: `CITATION.cff`
 - License: `LICENSE`
+
+# Bibliography
+
+```bibtex
+@article{zhang2026prescriptive,
+      title={Prescriptive Scaling Reveals the Evolution of Language Model Capabilities}, 
+      author={Hanlin Zhang and Jikai Jin and Vasilis Syrgkanis and Sham Kakade},
+      year={2026},
+      eprint={2602.15327},
+      archivePrefix={arXiv},
+}
+```
